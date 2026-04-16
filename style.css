@@ -1172,4 +1172,37 @@ body {
 }
 .not-loaded * {
   animation-play-state: paused !important;
+
+
+.demet-title {
+  font-size: 70px;
+  text-align: center;
+  color: #ff4d88;
+  font-family: 'Segoe Script', cursive;
+  margin-top: 40px;
+  letter-spacing: 3px;
+
+  text-shadow: 0 0 10px pink, 
+               0 0 20px #ffb6c1, 
+               0 0 30px #ffc0cb;
+
+  animation: floatText 3s ease-in-out infinite;
+}
+
+@keyframes floatText {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+
 }
